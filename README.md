@@ -138,4 +138,7 @@ Json-simple.1.1.1.jar
 
 #### 1,000,000 nodes graph:
 - **Load:** can’t load the file because it is to big.
-  
+ 
+ 
+### UML:
+![src](https://user-images.githubusercontent.com/93534494/145817214-bd64fc1c-6c9b-4bc5-ae66-03c883215690.png) 
