@@ -6,6 +6,7 @@ The algorithm, in other words, produces a graph and executes all sorts of operat
 HashMap<Integer,HashMap<Integer,EdgeData>> : When the Integer of the external HashMap represents the src of the Edge and the Integer of the internal HashMap represents the dest of the EdgeData specified in the internal HashMap
  HashMap<Integer,NodeData>: All vertices in the graph where the Integer represents the key and the NodeData represents the vertex itself.
 ArrayList<EdgeData> : List of all EdgeData in the graph.
+- **DirectedWeightedGraphC**:  Implementing an Interface DirectedWeightedGraph
 - **DirectedWeightedGraphAlgorithms**: This interface represents a Directed (positive) Weighted Graph Theory Algorithms including:
    - clone() - copy
    - init(graph) - Initializing graph
@@ -16,12 +17,18 @@ ArrayList<EdgeData> : List of all EdgeData in the graph.
    - List<NodeData> tsp(List<NodeData> cities) - computes a list of consecutive nodes which go over all the nodes in cities. [Helped algorithms](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
    - save(file) - save JSON file
    - load(file) - load JSON file
+- **DirectedWeightedGraphAlgorithmsC**: Implementing an Interface DirectedWeightedGraphAlgorithms
 - **EdgeData**: This interface represents the set of operations applicable on a directional edge(src,dest) in a (directional) weighted graph .
+- **EdgeDataC**:  Implementing an Interface EdgeData
 - **GeoLocation**: This interface represents a geo location <x,y,z>, (aka Point3D data).
+- **GeoLocationC**:  Implementing an Interface GeoLocation
 - **NodeData**: This interface represents the set of operations applicable on a node (vertex) in a (directional) weighted graph.
+- **NodeDataC**:  Implementing an Interface NodeData
 - **GraphView**: Creates a drawing of a graph (with directional edges, vertices - with their id, weight of each edge, and a menu to the function we performed in the graph).
 - **forSortestPath**: Assistance class for ShortestPath function.
 - **blockToV**: produces graphs and loads them into a json file.
+ - **DirectedWeightedGraphAlgorithmsCTest**: test class DirectedWeightedGraphAlgorithmsC
+ - **DirectedWeightedGraphCTest**: test class DirectedWeightedGraphC
   
  ## How the main functions in the algorithm works:
 - **isConected**: Checks if the graph is linked. We used the ["BFS" algorithm](https://en.wikipedia.org/wiki/Breadth-first_search). 
