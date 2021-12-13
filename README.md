@@ -65,8 +65,8 @@ Each click on one of the options in the menu if the function should have paramet
   
 ### How to run the jar:
 1. go to [link](https://github.com/eynavbe/OOP_Ex2_Java/tree/abd973aa25159a68891191177e8d63d7ccfc5080/%E2%80%8F%E2%80%8FEx2/out/artifacts/Ex2_jar)
-1. In the folder where the jar is, open a new folder called "data" and put the json files you want to run inside.
-2. Open cmd to the path of the folder where the jar is located.
+2. In the folder where the jar is, open a new folder called "data" and put the json files you want to run inside.
+3. Open cmd to the path of the folder where the jar is located.
 3. Register "java -jar Ex2.jar NAME_JSON"
 Example NAME_JSON: G1.json
   
