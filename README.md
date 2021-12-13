@@ -13,7 +13,7 @@ ArrayList<EdgeData> : List of all EdgeData in the graph.
    - double shortestPathDist(int src, int dest)  - The shortest path from the src vertex to the dst vertex
    - List<NodeData> shortestPath(int src, int dest) - Returns a list of the shortest path between 2 vertices
    - NodeData center() - finds the NodeData which minimizes the max distance to all the other nodes. [Helped algorithms](https://en.wikipedia.org/wiki/Graph_center)  
-   - List<NodeData> tsp(List<NodeData> cities) - computes a list of consecutive nodes which go over all the nodes in cities. [Helped algorithms] (https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+   - List<NodeData> tsp(List<NodeData> cities) - computes a list of consecutive nodes which go over all the nodes in cities. [Helped algorithms](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
    - save(file) - save JSON file
    - load(file) - load JSON file
 - **EdgeData**: This interface represents the set of operations applicable on a directional edge(src,dest) in a (directional) weighted graph .
@@ -24,7 +24,7 @@ ArrayList<EdgeData> : List of all EdgeData in the graph.
 - **blockToV**: produces graphs and loads them into a json file.
   
  ## How the main functions in the algorithm works:
-- **isConected**: Checks if the graph is linked. We used the ["BFS" algorithm] (https://en.wikipedia.org/wiki/Breadth-first_search). 
+- **isConected**: Checks if the graph is linked. We used the ["BFS" algorithm](https://en.wikipedia.org/wiki/Breadth-first_search). 
 The function activates a "BFS" for each vertex in the graph. The function " isConected " returns a “false” as soon as the “BFS” return “false” to one of the vertices (i.e if there is a white vertex after its activation), if the BPS returned only true - it returns true.
 - **shortestPath**: Goes through all the pathes that are from the source to the destination. And returns the path with the lowest weight.
 - **tsp**: The function checks which route is the shortest (with the least weight) according to the given list.
@@ -130,17 +130,4 @@ Json-simple.1.1.1.jar
 
 #### 1,000,000 nodes graph:
 - **Load:** can’t load the file because it is to big.
-  
-
-
-
-  
-
-
-  
-  
-  
-  
-
-  
   
