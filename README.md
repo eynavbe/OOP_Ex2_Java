@@ -11,8 +11,8 @@ ArrayList<EdgeData> : List of all EdgeData in the graph.
    - clone() - copy
    - init(graph) - Initializing graph
    - isConnected() - strongly (all ordered pais connected)
-   - double shortestPathDist(int src, int dest)  - The shortest path from the src vertex to the dst vertex
-   - List<NodeData> shortestPath(int src, int dest) - Returns a list of the shortest path between 2 vertices
+   - double shortestPathDist(int src, int dest)  - The shortest path from the src vertex to the dst vertex.
+   - List<NodeData> shortestPath(int src, int dest) - Returns a list of the shortest path between 2 vertices.
    - NodeData center() - finds the NodeData which minimizes the max distance to all the other nodes. [Helped algorithms](https://en.wikipedia.org/wiki/Graph_center)  
    - List<NodeData> tsp(List<NodeData> cities) - computes a list of consecutive nodes which go over all the nodes in cities. [Helped algorithms](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
    - save(file) - save JSON file
